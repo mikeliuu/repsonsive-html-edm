@@ -1,2 +1,2 @@
-# repsonsive-edm
-A Responsive Email Newsletter
+# repsonsive-html-edm
+A Responsive HTML Email Newsletter
