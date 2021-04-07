@@ -1,0 +1,767 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Email Newsletter</title>
+
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        /* background-color: #f6f9fc; */
+        color: #ffffff;
+      }
+
+      table {
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      img {
+        border: 0;
+        height: auto !important;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      /* center layout */
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        /* background-color: #fafafa; */
+        /* padding-bottom: 40px; */
+      }
+
+      /* max width */
+      .webkit {
+        max-width: 600px;
+        background-color: #ffffff;
+      }
+
+      /* email body */
+      .content {
+        margin: 0 auto;
+        width: 100%;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color: #4a4a4a;
+      }
+
+      .three-columns {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        /* outlook */
+        font-size: 0;
+        line-height: 0;
+      }
+
+      .column {
+        width: 100%;
+        max-width: 200px;
+        /* column wrap */
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .column-padding {
+        padding: 10px;
+      }
+
+      .content {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      /* a tag in product column */
+      .cta {
+        text-decoration: none;
+        font-size: 18px;
+        /* color: #000000; */
+      }
+
+      .cta-cover {
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      /* a tag in contact */
+      .contact {
+        color: #ffffff;
+        /* color: #919191; */
+      }
+
+      @media only screen and (max-width: 600px) {
+        /* set !important to override inline style*/
+        .column.column-last {
+          width: 100% !important;
+          max-width: 300px !important;
+          margin-top: 10px !important;
+        }
+
+        img.product-sm {
+          width: 100% !important;
+          max-width: 200px !important;
+        }
+
+        img.product-last {
+          width: 100% !important;
+          max-width: 250px !important;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        /* set !important to override inline style*/
+        .column {
+          width: 100% !important;
+          max-width: 300px !important;
+          margin-bottom: 20px !important;
+        }
+
+        img.product-sm {
+          width: 100% !important;
+          max-width: 350px !important;
+        }
+
+        .p-highlight-title {
+          font-size: 28px !important;
+          line-height: 36px !important;
+        }
+        .p-highlight-desc {
+          line-height: 28px !important;
+        }
+        .p-highlight-term {
+          font-size: 10px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <center class="wrapper">
+      <div class="webkit">
+        <table class="content" align="center">
+          <!-- header -->
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td
+                    style="
+                      background-color: #000000;
+                      text-align: center;
+                      padding: 15px;
+                    "
+                  >
+                    <a href="#logo"
+                      ><img
+                        src="https://sju7v.csb.app/assets/img/logo.jpg"
+                        alt="Logo"
+                        width="100"
+                        align="center"
+                    /></a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- banner -->
+          <tr>
+            <td>
+              <a href="#banner"
+                ><img
+                  src="https://sju7v.csb.app/assets/img/banner.jpg"
+                  alt="Banner"
+                  width="600"
+                  style="max-width: 100%; height: auto;"
+              /></a>
+            </td>
+          </tr>
+
+          <!-- products -->
+          <tr>
+            <td>
+              <table width="100%" border-spacing="0">
+                <tr>
+                  <td class="three-columns">
+                    <!-- product column -->
+                    <table class="column">
+                      <tr>
+                        <td class="column-padding">
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <!-- product img -->
+                                <img
+                                  class="product-sm"
+                                  src="https://sju7v.csb.app/assets/img/p-1.jpg"
+                                  alt="Dyson Corrale"
+                                  width="150"
+                                  style="max-width: 150px;"
+                                />
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="padding: 10px;">
+                                <!-- title -->
+                                <p
+                                  style="
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 22px;
+                                  "
+                                >
+                                  <!-- Dyson Corrale -->
+                                  <span style="color: #000000;">dyson</span>
+                                  <span style="color: #c25f42;">corrale</span>
+                                </p>
+                                <!-- desc -->
+                                <p style="padding-bottom: 1em;">
+                                  Goodbye excessive heat. Hello flexing plates.
+                                  The only straightener with flexing plates that
+                                  shape to gather hair.
+                                  <!-- Turning down the heat on conventional hair
+                                  straighteners might reduce damage, but it also
+                                  affects styling. By gathering hair, our
+                                  flexing plates let you achieve the same style
+                                  with less heat for 50% less breakage¹, reduced
+                                  frizz and fewer flyaways. -->
+                                </p>
+                                <!-- cta -->
+                                <a
+                                  href="#learn-more"
+                                  class="cta"
+                                  style="
+                                    border: 1px solid #000000;
+                                    background-color: #ffffff;
+                                    color: #000000;
+                                    padding: 10px 20px;
+                                  "
+                                  >Learn more</a
+                                >
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- product column -->
+                    <table class="column">
+                      <tr>
+                        <td class="column-padding">
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <!-- product img -->
+                                <img
+                                  class="product-sm"
+                                  src="https://sju7v.csb.app/assets/img/p-2.jpg"
+                                  alt="Dyson Pure Humidify + Cool"
+                                  width="150"
+                                  style="max-width: 150px;"
+                                />
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="padding: 10px;">
+                                <!-- title -->
+                                <p
+                                  style="
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 22px;
+                                  "
+                                >
+                                  <!-- Dyson Pure Humidify + Cool -->
+                                  <span style="color: #000000;">dyson</span>
+                                  <span style="color: #73d2f8;">pure</span>
+                                  <span style="color: #00c1d5;">humidify</span
+                                  ><span style="color: #73d2f8;">+</span
+                                  ><span style="color: #008ace;">cool</span>
+                                </p>
+                                <!-- desc -->
+                                <p style="padding-bottom: 1em;">
+                                  Automatically purifies and humidifies for a
+                                  healthier environment. Captures gases and fine
+                                  particles.
+                                  <!-- Intelligent sensors automatically detect
+                                  airborne particles and gases, as well as
+                                  temperature and humidity levels. The machine
+                                  uses a unique algorithm to diagnose and manage
+                                  your air quality, then processes the input for
+                                  real-time reports. -->
+                                </p>
+                                <!-- cta -->
+                                <a
+                                  href="#learn-more"
+                                  class="cta"
+                                  style="
+                                    border: 1px solid #000000;
+                                    background-color: #ffffff;
+                                    color: #000000;
+                                    padding: 10px 20px;
+                                  "
+                                  >Learn more</a
+                                >
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- product column -->
+                    <table class="column column-last">
+                      <tr>
+                        <td class="column-padding">
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <!-- product img -->
+                                <img
+                                  class="product-sm product-last"
+                                  src="https://sju7v.csb.app/assets/img/p-3.jpg"
+                                  alt="Dyson V11"
+                                  width="150"
+                                  style="max-width: 150px;"
+                                />
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="padding: 10px;">
+                                <!-- title -->
+                                <p
+                                  style="
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 22px;
+                                  "
+                                >
+                                  <!-- Dyson V11 -->
+                                  <span style="color: #000000;">dyson</span>
+                                  <span style="color: #de0000;">v11</span>
+                                </p>
+                                <!-- desc -->
+                                <p style="padding-bottom: 1em;">
+                                  Intelligently optimizes suction and run time
+                                  across all floor types. Lightweight and
+                                  versatile for everyday use.
+                                  <!-- The Dyson DLS™ (Dynamic Load Sensor)
+                                  technology inside the High Torque cleaner head
+                                  monitors brush bar resistance 360 times a
+                                  second, automatically adjusting power across
+                                  different floor types for the right balance of
+                                  power and run time when you need it. -->
+                                </p>
+                                <!-- cta -->
+                                <a
+                                  href="#learn-more"
+                                  class="cta"
+                                  style="
+                                    border: 1px solid #000000;
+                                    background-color: #ffffff;
+                                    color: #000000;
+                                    padding: 10px 20px;
+                                  "
+                                  >Learn more</a
+                                >
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- product highlight section -->
+                <tr>
+                  <td>
+                    <table width="100%" style="border-spacing: 0;">
+                      <tr>
+                        <td style="padding-left: 20px; padding-right: 20px;">
+                          <img
+                            class="p-highlight-logo"
+                            src="https://sju7v.csb.app/assets/img/v11-logo.png"
+                            alt="V11 Logo"
+                            width="200"
+                            style="max-width: 200px; margin-bottom: 20px;"
+                          />
+                          <p
+                            class="p-highlight-title"
+                            style="
+                              font-weight: 300;
+                              font-size: 32px;
+                              line-height: 40px;
+                              margin-top: 0;
+                              margin-bottom: 12px;
+                              color: #333333;
+                            "
+                          >
+                            Powerful Dyson vacuum technology. Without the cord.
+                          </p>
+                          <p
+                            class="p-highlight-desc"
+                            style="
+                              margin: 0;
+                              font-weight: 300;
+                              font-size: 18px;
+                              line-height: 32px;
+                              margin-bottom: 8px;
+                            "
+                          >
+                            Save $100 on the Dyson V11 Torque Drive vacuum
+                            <!-- Twice the suction of any other cordless vacuum¹ -->
+                          </p>
+                          <p
+                            class="p-highlight-term"
+                            style="
+                              margin-top: 0;
+                              margin-bottom: 20px;
+                              font-weight: 400;
+                              font-size: 12px;
+                              line-height: 20px;
+                            "
+                          >
+                            Offer ends July 11, 2020 at 11:59 pm CST. Terms and
+                            conditions apply.
+                            <!-- Now available in larger format -->
+                          </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <img
+                            src="https://sju7v.csb.app/assets/video/pv-1.gif"
+                            alt="Product video"
+                            width="600"
+                            style="max-width: 100%;"
+                          />
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td style="padding-left: 20px; padding-right: 20px;">
+                          <p
+                            class="p-highlight-subtitle"
+                            style="
+                              color: #333333;
+                              margin: 0;
+                              font-weight: 500;
+                              font-size: 18px;
+                              line-height: 32px;
+                              margin-top: 20px;
+                              margin-bottom: 8px;
+                            "
+                          >
+                            Dyson Hyperdymium™️ motor
+                          </p>
+
+                          <p
+                            class="p-highlight-subtext"
+                            style="
+                              margin-top: 0;
+                              margin-bottom: 0;
+                              font-weight: 400;
+                              font-size: 14px;
+                              line-height: 22px;
+                            "
+                          >
+                            This Dyson Hyperdymium™ motor spins at up to
+                            125,000rpm to generate twice the suction of any
+                            cordless vacuum.¹
+                          </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td style="padding-left: 20px; padding-right: 20px;">
+                          <p
+                            class="p-highlight-subtitle"
+                            style="
+                              color: #333333;
+                              margin: 0;
+                              font-weight: 500;
+                              font-size: 18px;
+                              line-height: 32px;
+                              margin-top: 20px;
+                              margin-bottom: 8px;
+                            "
+                          >
+                            Radial Root Cyclone™ technology
+                          </p>
+
+                          <p
+                            class="p-highlight-subtext"
+                            style="
+                              margin-top: 0;
+                              margin-bottom: 0;
+                              font-weight: 400;
+                              font-size: 14px;
+                              line-height: 22px;
+                            "
+                          >
+                            Dyson’s patented cyclones generate centrifugal
+                            forces up to 79,000g trapping fine dust and dirt in
+                            the bin, so your vacuum never loses suction.
+                          </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td style="padding-left: 20px; padding-right: 20px;">
+                          <p
+                            class="p-highlight-subtitle"
+                            style="
+                              color: #333333;
+                              margin: 0;
+                              font-weight: 500;
+                              font-size: 18px;
+                              line-height: 32px;
+                              margin-top: 20px;
+                              margin-bottom: 8px;
+                            "
+                          >
+                            Powerful Dyson suction
+                          </p>
+
+                          <p
+                            class="p-highlight-subtext"
+                            style="
+                              margin-top: 0;
+                              margin-bottom: 0;
+                              font-weight: 400;
+                              font-size: 14px;
+                              line-height: 22px;
+                            "
+                          >
+                            Traps 99.99% of dust and bacteria as small as 0.3
+                            microns. Expelling cleaner air than the air you
+                            breathe.‡
+                          </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td height="150" align="center" style="height: 150px;">
+                          <!-- cta -->
+                          <a
+                            href="#shop"
+                            class="cta"
+                            style="
+                              border: 1px solid #000000;
+                              background-color: transparent;
+                              color: #000000;
+                              padding: 10px 20px;
+                            "
+                          >
+                            Shop now
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- other section -->
+                <tr>
+                  <td>
+                    <table width="100%" style="border-spacing: 0;">
+                      <tr>
+                        <td>
+                          <!-- <p>heloo</p> -->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- footer -->
+                <tr>
+                  <td>
+                    <table width="100%" style="border-spacing: 0;">
+                      <!-- social icon -->
+                      <tr>
+                        <td
+                          style="
+                            background-color: #000000;
+                            padding-top: 20px;
+                            padding-bottom: 25px;
+                            text-align: center;
+                          "
+                        >
+                          <p
+                            style="
+                              font-size: 18px;
+                              color: #ffffff;
+                              margin-bottom: 10px;
+                            "
+                          >
+                            Connect with us
+                          </p>
+                          <a href="#social"
+                            ><img
+                              src="https://sju7v.csb.app/assets/img/social-fb.png"
+                              alt="Facebook"
+                              width="25"
+                              style="margin: 5px; max-width: 25px;"
+                          /></a>
+                          <a href="#social"
+                            ><img
+                              src="https://sju7v.csb.app/assets/img/social-ig.png"
+                              alt="Instagram"
+                              width="25"
+                              style="margin: 5px; max-width: 25px;"
+                          /></a>
+                          <a href="#social"
+                            ><img
+                              src="https://sju7v.csb.app/assets/img/social-tw.png"
+                              alt="Twitter"
+                              width="25"
+                              style="margin: 5px; max-width: 25px;"
+                          /></a>
+                          <a href="#social"
+                            ><img
+                              src="https://sju7v.csb.app/assets/img/social-yt.png"
+                              alt="Youttube"
+                              width="25"
+                              style="margin: 5px; max-width: 25px;"
+                          /></a>
+                        </td>
+                      </tr>
+
+                      <!-- footer content -->
+                      <tr>
+                        <td style="background-color: #000000;">
+                          <table width="100%" style="border-spacing: 0;">
+                            <tr>
+                              <td
+                                height="1"
+                                width="100"
+                                style="
+                                  max-width: 100px;
+                                  background-color: #919191;
+                                "
+                              ></td>
+                            </tr>
+
+                            <!-- contact -->
+                            <tr>
+                              <td
+                                align="center"
+                                stlye="padding: 20px;text-align:center;"
+                              >
+                                <a class="contact" href="#company"
+                                  ><img
+                                    src="https://sju7v.csb.app/assets/img/logo.jpg"
+                                    alt="Logo"
+                                    width="120"
+                                    style="
+                                      margin-top: 25px;
+                                      margin-bottom: 10px;
+                                    "
+                                /></a>
+                                <p>
+                                  <a
+                                    class="contact"
+                                    href="mailto:customer@dyson.com"
+                                    >customer@dyson.com</a
+                                  >
+                                </p>
+                                <p>
+                                  <a class="contact" href="tel:844-705-4777"
+                                    >844-705-4777</a
+                                  >
+                                </p>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td
+                                height="20"
+                                style="background-color: #000000;"
+                              ></td>
+                            </tr>
+
+                            <!-- footer links -->
+                            <tr>
+                              <td
+                                align="center"
+                                stlye="padding-top:80px; padding-bottom:40px;text-align: center;"
+                              >
+                                <a
+                                  href="#unsubscribe"
+                                  style="
+                                    font-size: 12px;
+                                    color: #919191;
+                                    text-decoration: underline;
+                                    margin: 2px;
+                                  "
+                                  >Unsubscribe</a
+                                >
+
+                                <a
+                                  href="#privacy"
+                                  style="
+                                    font-size: 12px;
+                                    color: #919191;
+                                    text-decoration: underline;
+                                    margin: 2px;
+                                  "
+                                  >Privacy Policy</a
+                                >
+
+                                <a
+                                  href="#tnc"
+                                  style="
+                                    font-size: 12px;
+                                    color: #919191;
+                                    text-decoration: underline;
+                                    margin: 2px;
+                                  "
+                                  >Terms & Conditions</a
+                                >
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td align="center" style="text-align: center;">
+                                <p>© Dyson 2020</p>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td
+                                height="20"
+                                style="background-color: #000000;"
+                              ></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </center>
+  </body>
+</html>
